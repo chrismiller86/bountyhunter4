@@ -1,0 +1,212 @@
+
+@media only screen and (max-width:750px){
+    body {
+    background-color: #ebe5cc;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.google-button {
+    font: black;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 2px 2px;
+    
+}
+.google-button:hover {
+    background-color:yellow ;
+
+}
+.facebook-button {
+    font: black;
+    border: 2px solid black;
+    padding: 2px 2px;
+
+}
+
+.facebook-button:hover {
+    background-color:yellow ;
+
+}
+.linkedin-button {
+    font: black;
+    border: 2px solid black;
+    padding: 2px 2px;
+}
+.linkedin-button:hover {
+    background-color:yellow ;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#photos  {
+    display: flex;
+    justify-content: center;
+}
+
+#nature {
+    margin: 50px;
+}
+
+#nature-p {
+    margin-left: 30px;
+
+}
+
+#sloth {
+    border: 2px black solid;
+    padding: 5px;
+    margin-top: 5px;
+    height: 200px;
+    width: 200px;
+    
+}
+
+#travel {
+    margin: 50px;
+}
+
+#travel-p {
+    margin-left: 45px;
+}
+
+#waterfall {
+    border: 2px black solid;
+    padding: 5px;
+    margin-top: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+li {
+    display: inline-block;
+    margin-left: 40%;
+    align-items: center;
+    background-color:skyblue;
+    width: 175px;
+}
+
+
+
+}
+
+@media only screen and (min-width: 751px){
+    body {
+        background-color: #ebbe0c;
+    }
+    h1 {
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner {
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+    
+    .google-button {
+        font: black;
+        border: 2px solid black;
+        border-radius: 10%;
+        padding: 2px 2px;
+        
+    }
+    .google-button:hover {
+        background-color: blue;
+    
+    }
+    .facebook-button {
+        font: black;
+        border: 2px solid black;
+        padding: 2px 2px;
+    
+    }
+    
+    .facebook-button:hover {
+        background-color: blue ;
+    
+    }
+    .linkedin-button {
+        font: black;
+        border: 2px solid black;
+        padding: 2px 2px;
+    }
+    .linkedin-button:hover {
+        background-color:blue ;
+    
+    }
+    
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #photos  {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #nature {
+        margin: 50px;
+    }
+    
+    #nature-p {
+        margin-left: 30px;
+    
+    }
+    
+    #sloth {
+        border: 2px black solid;
+        padding: 5px;
+        margin-top: 5px;
+        height: 200px;
+        width: 200px;
+        
+    }
+    
+    #travel {
+        margin: 50px;
+    }
+    
+    #travel-p {
+        margin-left: 45px;
+    }
+    
+    #waterfall {
+        border: 2px black solid;
+        padding: 5px;
+        margin-top: 5px;
+        height: 200px;
+        width: 200px;
+    }
+    
+    
+    li {
+        display: inline-block;
+        margin-left: 40%;
+        align-items: center;
+        background-color:purple;
+        width: 175px;
+    }
+    
+    
+}
