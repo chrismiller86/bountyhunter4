@@ -1,0 +1,211 @@
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .page-layout-by-size {
+        display: grid;
+        margin: 0;
+        padding: 0;
+        font: 25px;
+        grid-template-columns: repeat(auto-fit, 6, 1fr);
+        grid-template-rows: repeat(auto-fit, 6, 1fr);
+       
+    }
+    .header {
+        display: flex;
+        background-color: lightslategray;
+        color: white;
+        grid-column: 1/6;
+        height: 50px;
+        border-radius: 5px;
+        padding-left: 8px;
+    }
+
+    .sidebar-1 {
+        display: flex;
+        background-color: darkgray;
+        color: white;
+        grid-column: 1/6;
+        height: 50px;
+        border-radius: 5px;
+        padding-left: 8px;
+
+    }
+
+    .content {
+        display: flex;
+        background-color: darkgray;
+        color: white;
+        grid-column: 1/6;
+        height: 100px;
+        border-radius: 5px;
+        padding-left: 8px;
+    }
+
+    .sidebar-2 {
+        display: flex;
+        background-color: darkgray;
+        color: white;
+        grid-column: 1/6;
+        height: 50px;
+        border-radius: 5px;
+        padding-left: 8px;
+    }
+
+    .footer {
+        display: flex;
+        background-color: gray;
+        color: white;
+        grid-column: 1/6;
+        height: 50px;
+        border-radius: 5px;
+        padding-left: 8px;
+    }
+
+
+
+
+    
+    @media only screen and (min-width:750px){
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .page-layout-by-size {
+            display: grid;
+            margin: 0;
+            padding: 0;
+            grid-template-columns: repeat(auto-fit, 6, 1fr);
+            grid-template-rows: repeat(auto-fit, 6, 1fr);
+           
+        }
+        .header {
+            display: flex;
+            background-color: lightslategray;
+            color: white;
+            grid-column: 1/6;
+            height: 50px;
+            border-radius: 5px;
+            border:0px;
+            padding-left: 8px;
+        }
+    
+        .sidebar-1 {
+            display: flex;
+            background-color: darkgray;
+            color: white;
+            grid-column: 1/2;
+            grid-row: 2/4;
+            height: 100px;
+            border-radius: 5px;
+            margin-right: 10px;
+            padding-left: 8px;
+    
+        }
+    
+        .content {
+            display: flex;
+            background-color: darkgray;
+            color: white;
+            grid-column: 2/6;
+            grid-row: 2/4;
+            height: 100px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+    
+        .sidebar-2 {
+            display: flex;
+            background-color: darkgray;
+            color: white;
+            grid-column: 1/6;
+            height: 50px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+    
+        .footer {
+            display: flex;
+            background-color: gray;
+            color: white;
+            grid-column: 1/6;
+            height: 50px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+    
+    
+    }
+
+    @media only screen and (min-width:950px){
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .page-layout-by-size {
+            display: grid;
+            margin: 0;
+            padding: 0;
+            grid-template-columns: repeat(auto-fit, 6, 1fr);
+            grid-template-rows: repeat(auto-fit, 6, 1fr);
+           
+        }
+        .header {
+            display: flex;
+            background-color: lightslategray;
+            color: white;
+            grid-column: 1/6;
+            height: 50px;
+            border-radius: 5px;
+            border:0px;
+            padding-left: 8px;
+        }
+    
+        .sidebar-1 {
+            display: flex;
+            background-color: darkgray;
+            color: white;
+            grid-column: 1/2;
+            grid-row: 2/4;
+            height: 100px;
+            border-radius: 5px;
+            margin-right: 10px;
+            padding-left: 8px;
+    
+        }
+    
+        .content {
+            display: flex;
+            background-color: darkgray;
+            color: white;
+            grid-column: 2/4;
+            grid-row: 2/4;
+            height: 100px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+    
+        .sidebar-2 {
+            display: flex;
+            background-color: darkgray;
+            color: white;
+            grid-column: 4/6;
+            grid-row: 2/4;
+            margin-left: 10px;
+            height: 100px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+    
+        .footer {
+            display: flex;
+            background-color: gray;
+            color: white;
+            grid-column: 1/6;
+            height: 50px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+    
+    
+    }
