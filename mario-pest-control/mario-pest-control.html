@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mario-pest-control.css">
+</head>
+
+<body>
+    <h1 id="title">Mario's Pest Control</h1>
+    <form name="pestWorkSheet">
+
+        <ul>
+            <img id="goombaPic"
+                src="https://images2.fanpop.com/image/photos/9400000/Goomba-nintendo-villains-9411361-520-520.jpg"
+                alt="">
+            <p>Price per Goomba - 5 coins</p>
+            <label for="">Goombas caught</label>
+            <input type="number" name="goomba" id="goomba-counter">
+        </ul>
+        <ul>
+            <img id="bob-ombsPic"
+                src="https://images1.fanpop.com/images/image_uploads/Bob-Omb-super-smash-bros-brawl-851986_340_340.jpg"
+                alt="">
+            <p>Price per Bob-omb - 7 coins</p>
+            <label for="">Bob-ombs caught</label>
+            <input type="number" id="bob-omb-counter" name="bobombs">
+        </ul>
+        <ul>
+            <img id="cheep-cheepsPic" src="https://mario.wiki.gallery/images/7/7f/SML2_Artwork_-_Cheep_Cheep.png"
+                alt="">
+            <p>Price per Cheep-cheep - 11 coins</p>
+            <label for="">Cheep-cheeps caught</label>
+            <input type="number" name="cheepcheep" id="cheep-cheep-counter">
+        </ul>
+
+
+        <input type="submit" value="Submit">
+        <h3 id="totalTogether"></h3>
+    </form>
+
+    <footer class="footer">
+        <a id="website" href="mario-pest-control.com">mario-pest-control.com</a>
+        <a id="email" href="mailto:mario_pest_control@gmail.com">mario_pest_control@gmail.com</a>
+        <p id="address">
+            123 Mushroom Drive
+            <br> Sewer, NintendoVille 12345
+        </p>
+    </footer>
+    <script src="mario-pest-control.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+.box {
+    
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    border: 1px black solid;
+    background-color: white;
+}
+#box1:hover{
+background-color: aqua;
+border-radius: 25%;
+box-shadow: black 2px;
+}
+
+#box2:hover{
+    position: absolute;
+    background-color: blue;
+
+}
+#box3:hover{
+    background-color: blueviolet;
+    opacity: 50%;
+
+}
+#box4:hover{
+    background-color: chartreuse;
+    height: 20px;
+
+}
+#box5:hover{
+    background-color: darkcyan;
+    width: 20px;
+}
+#box6:hover{
+    background-color: darkgreen;
+    border: black solid 4px;
+
+
+}
+body {
+    background-color: bisque;
+}

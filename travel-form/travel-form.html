@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="travel-form.css">
+</head>
+
+<body>
+    <form name="travelerInformation">
+        <h1 id="travelTitle" name="taveler-title">Traveler Information</h1>
+        <div id="name-age">
+            First Name: <input type="text" name="firstName" value="" placeholder="first name">
+            Last Name: <input type="text" name="lastName" value="" placeholder="last name">
+            Age: <input type="number" name="age" id="" placeholder="age">
+        </div>
+        <div id="male-female">
+            <input type="radio" name="gender" value="Male" id="">
+            <label for="">Male</label>
+            <br>
+            <input type="radio" name="gender" value="Female" id="">
+            <label for="">Female</label>
+
+        </div>
+        <div id="whereTo">
+            <select name="location" id="cities">
+                <option value="Paris">Paris</option>
+                <option value="London">London</option>
+                <option value="Bangkok">Bangkok</option>
+            </select>
+            <label for="">Where To?</label>
+
+        </div>
+        <div id="foods">
+            <input type="checkbox" value="Gluten free" name="dietaryRestrictions">
+            <label for="">Gluten Free</label>
+            <br>
+            <input type="checkbox" value="Vegetarian" name="dietaryRestrictions" id="">
+            <label for="">Vegetarian</label>
+            <br>
+            <input type="checkbox" value="Kosher" name="dietaryRestrictions" id="">
+            <label for="">Kosher</label>
+        </div>
+        <button type="submit" id="submit" name="submit">Submit</button>
+
+    </form>
+    <script src="travel-form.js"></script>
+</body>
+
+</html>

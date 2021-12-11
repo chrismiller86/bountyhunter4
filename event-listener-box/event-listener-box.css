@@ -1,0 +1,13 @@
+#box {
+    display: flex;
+    margin: 33.3%;
+    height: 300px;
+    width: 300px;
+    border: 1px black solid;
+    background-color: white;
+}
+
+body {
+    display:flex;
+    background-color: bisque;
+}

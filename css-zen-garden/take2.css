@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
+body{
+    margin: 0;
+}
+.container {
+    display: grid; 
+    grid-template-rows: repeat(6, 1fr);
+    
+}
+#div1{
+    grid-column:1/4;
+    height: 280px;
+    background-color: #2d6360;
+    opacity: 0.8;
+    width: 100%;
+    background-image:
+    
+    url(http://www.csszengarden.com/214/contours@2x.png),
+    url(http://www.csszengarden.com/214/gridlines.png),
+    url(http://www.csszengarden.com/214/noise.png),
+    url(http://www.csszengarden.com/214/koi.jpg);
+
+
+   
+ 
+}
+#div2{
+    grid-column:4/6;
+    background-color: #2d6360;
+    opacity: 0.9;
+    background-image: url(http://www.csszengarden.com/214/contours@2x.png),
+    url(http://www.csszengarden.com/214/gridlines.png),
+    url(http://www.csszengarden.com/214/noise.png),
+    url(http://www.csszengarden.com/214/koi.jpg);
+
+   
+}
+.container > div {
+    border: solid black 2px;
+
+}

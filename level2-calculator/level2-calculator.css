@@ -1,0 +1,32 @@
+
+
+body{
+    background-color: bisque;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+.number1{
+    background-color:rgb(231, 149, 78);
+    width: 100px;
+    margin: 5px;
+    
+
+}
+
+.number2{
+    background-color: coral;
+    width: 100px;
+    margin: 5px;
+}
+
+.operand{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 100px;
+    margin: 5px;
+}

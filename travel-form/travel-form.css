@@ -1,0 +1,42 @@
+body {
+    background-color: coral;
+}
+
+#travelTitle{
+    display: flex;
+    justify-content: center;
+}
+
+#name-age{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    border: black solid 1px;
+}
+
+#male-female{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    border: black solid 1px;
+}
+
+
+#whereTo{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    border: black solid 1px
+}
+
+
+#foods{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    border: black solid 1px;
+}
+#submit{
+    display: flex;
+    justify-content: center;
+}

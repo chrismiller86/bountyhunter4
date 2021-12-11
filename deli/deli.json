@@ -1,0 +1,115 @@
+{
+    "Menu": [
+        {
+            "Appetizers": [
+                {
+                    "name": "jalapeño poppers",
+                    "ingredients": [
+                        "Jalapeño",
+                        "Mozzeralla cheese",
+                        "Bread cumbs"
+                    ],
+                    "description": "Jalapeños stuffed with cheese, breaded and deep fried."
+                },
+                {
+                    "name": "Chips and salsa",
+                    "ingredients": [
+                        "Tortilla chips",
+                        "Pico de gallo",
+                        "Tomatillo salsa"
+                    ],
+                    "description": "Fresh tortilla chips, served with pico de gallo and spicy tomatilla salsa."
+                }
+            ],
+            "Cold Sandwiches": [
+                {
+                    "name": "BLT",
+                    "ingredients": [
+                        "Bacon",
+                        "Lettuce",
+                        "Tomatoe",
+                        "White bread"
+                    ],
+                    "description": "Bacon, cooked to perfection along with fresh heirloom tomatoes and lettuce on lightly toasted white bread."
+                },
+                {
+                    "name": "Salami mozzarella sandwich",
+                    "ingredients": [
+                        "Salami",
+                        "Lettuce",
+                        "Tomatoe",
+                        "Submarine roll",
+                        "Mozzarella cheese"
+                    ],
+                    "description": "Zesty salami with tomatoe, mozzarella, and lettuce on a freshly baked submarine roll."
+                }
+            ],
+            "Hot Sandwiches": [
+                {
+                    "name": "Grilled Cheese",
+                    "ingredients": [
+                        "Sour dough bread",
+                        "American cheese",
+                        "Butter"
+                    ],
+                    "description": "American cheese between sour dough bread grilled in butter."
+                },
+                {
+                    "name": "Meatball marinara sub",
+                    "ingredients": [
+                        "Sour dough sub",
+                        "Swiss cheese",
+                        "Marinara sauce",
+                        "Beef meatballs"
+                    ],
+                    "description": "Sourdugh sub with 3 large meatballs, covered in marinara sauce and swiss cheese."
+                }
+            ],
+            "Dessert": [
+                {
+                    "name": "Hot fudge sundae",
+                    "ingredients": [
+                        "Vanilla bean ice cream",
+                        "Hot fudge",
+                        "Peanuts",
+                        "Cherry"
+                    ],
+                    "description": "Vanilla bean ice cream, doused in hot fudge with peanuts and a cherry on top."
+                },
+                {
+                    "name": "Pecan pie",
+                    "ingredients": [
+                        "Vanilla bean ice cream",
+                        "Pecans",
+                        "Pie filling",
+                        "Pie crust",
+                        "Whipped cream"
+                    ],
+                    "description": "Homemade peacan pie served with vanilla bean ice cream."
+                }
+            ],
+            "Drinks": [
+                {
+                    "name": "Piña Colada",
+                    "ingredients": [
+                        "Pineapple juice",
+                        "Coconut cream",
+                        "White rum"
+                    ],
+                    "description": "Piña colada served in a pineapple with a swirly straw"
+                },
+                {
+                    "name": "Apple Cider",
+                    "ingredients": [
+                        "Apple juice",
+                        "Cinnamon stick",
+                        "Cloves",
+                        "Nutmeg",
+                        "Allspice"
+                    ],
+                    "description": "Hot apple cider served with cinnamon sticks"
+                }
+            ]
+        }
+    ]
+}

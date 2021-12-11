@@ -1,0 +1,35 @@
+.box {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 50px;
+  
+    
+    
+    
+
+    
+}
+
+.container{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+
+}
+
+
+.smallButton{
+    width: 100px;
+}
+
+.partyButton{
+    width: 100px;
+}
+
+.leftBlue{
+    width: 100px;
+}
+
+.rightBlue{
+    width: 100px;
+}

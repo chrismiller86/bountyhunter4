@@ -1,43 +1,34 @@
-const readline = require("readline-sync")
+const readlineSync = require("readline-sync");
 
+var number1 = readlineSync.question("Please enter your first number: ");
+var number2 = readlineSync.question("Please enter your second number: ");
+var operation = readlineSync.question("Please enter the operation to perform [add, sub, mul, div]: ");
 
-var Calculation = function (num1, num2, op) {
-    this.x = parseInt(num1);
-    this.y = parseInt(num2);
-    this.op = op;
-
-    this.result = function () {
-        var x = this.x;
-        var y = this.y;
-        var op = this.op;
-
-        if (op === "+") {
-            var result = x + y;
-        } else if (op === "-") {
-            var result = x - y;
-        } else if (op === "/") {
-            var result = x / y;
-        } else if (op === "*") {
-            var result = x * y;
-        } else if (op === "%") {
-            var result = x % y;
-        } else {
-            var result = "Error!"
-        }
-
-        console.log("Result: " + result);
-    };
+if (operation === "add") {
+    add(number1, number2);
+    console.log("Result: " + add(number1, number2));
+} else if (operation === "sub") {
+    console.log("Result: " + subtract(number1, number2));
+} else if (operation === "mul") {
+    console.log("Result: " + multiply(number1, number2));
+} else if (operation === "div") {
+    console.log("Result: " + divide(number1, number2));
+} else {
+    console.log("Error");
 }
 
-var num1 = readline.question("Please enter a number: ");
-var num2 = readline.question("Please enter another number: ");
-var op = readline.question("Please enter an operator: ");
+function add(number1, number2) {
+    return parseInt(number1) + parseInt(number2);
+}
 
-var calc = new Calculation(num1, num2, op);
+function subtract(number1, number2) {
+    return parseInt(number1) - parseInt(number2);
+}
 
-calc.result();
+function multiply(number1, number2) {
+    return parseInt(number1) * parseInt(number2);
+}
 
-
- //   please enter your first number
-// please enter your second number
-// please enter your operation to perform
+function divide(number1, number2) {
+    return parseInt(number1) / parseInt(number2);
+}
